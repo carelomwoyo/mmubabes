@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MMU Fresher's Night</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,600;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <section class="header">
+    <nav>
+     <a href="index.html"><img src="Photos/CR.png" alt="logo"></a> 
+     <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="">ABOUT</a></li>
+            <li><a href="">COURSE</a></li>
+            <li><a href="">BLOG</a></li>
+            <li><a href="">CONTACT</a></li>
+        </ul>
+     </div>
+     <i class="fa fa-bars" onclick="showMenu()"></i>
+
+    </nav>
+    <div class="text-box">
+        <h1>Multimedia's Finest Hotties</h1>
+        <p>This is the next level of beauty! You can't beleve whats going on in modern campuses</p>
+        <a href="" class="hero-btn">You've got to be kidding!</a>
+    </div>
+    </section>
+    <!----- Course ----->
+    <section class="course">
+        <h1>Courses we offer</h1>
+     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur vitae dolorem est similique officiis ut dicta quod expedita. Cum inventore vero necessitatibus architecto quidem? Doloremque ex culpa nobis tempora consectetur.2</p>
+
+     <div class="row">
+        <div class="course-col">
+            <h3>Intermediate</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto illo, quo repellendus obcaecati placeat laboriosam, eos totam tempore iste animi voluptatibus fugiat voluptas sed ut voluptates enim sapiente non reprehenderit.</p>
+        </div>
+        <div class="course-col">
+            <h3>Degree</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto illo, quo repellendus obcaecati placeat laboriosam, eos totam tempore iste animi voluptatibus fugiat voluptas sed ut voluptates enim sapiente non reprehenderit.</p>
+        </div>
+        <div class="course-col">
+            <h3>Post-graduation</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto illo, quo repellendus obcaecati placeat laboriosam, eos totam tempore iste animi voluptatibus fugiat voluptas sed ut voluptates enim sapiente non reprehenderit.</p>
+        </div>
+     </div>
+    </section>
+     
+    <!----- Javascript for toggle menu ------>
+
+    <script>
+
+        var navLink = document.getElementById("navLinks")
+
+        function showMenu(){
+            navLinks.style.right =  "0";
+        }
+        function hideMenu(){
+            navLinks.style.right =  "-200px";
+        }
+    </script>
+</body>
+</html>
